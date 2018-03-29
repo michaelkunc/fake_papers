@@ -1,4 +1,4 @@
-package com.fake_papers.fake_papers;
+package com.fake_papers;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.fake_papers.fake_papers;
+package com.fake_papers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
