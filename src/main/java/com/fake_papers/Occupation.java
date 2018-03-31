@@ -16,6 +16,10 @@ public class Occupation {
         occupations.add("Soldier");
         occupations.add("Sorceress");
         occupations.add("Sorcerer");
+        occupations.add("Tavern Owner");
+        occupations.add("Tavern Wentch");
+        occupations.add("Professor");
+        occupations.add("Doctor");
 
         int index = random.nextInt(occupations.size());
         this.occupation = occupations.get(index);
