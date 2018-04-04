@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
-public class WitcherSchoolTests {
+public class OccupationTests {
 
     @Autowired
     private TestRestTemplate restTemplate;
@@ -22,9 +22,7 @@ public class WitcherSchoolTests {
 
     @Test
     public void exampleTest() {
-        String body = this.restTemplate.getForObject("/witcherschools", String.class);
-        assertThat(body).contains("witcherSchool");
+        String body = this.restTemplate.getForObject("/occupations", String.class);
+        assertThat(body).contains("occupation");
     }
-
-
 }
