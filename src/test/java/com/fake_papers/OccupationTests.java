@@ -21,7 +21,7 @@ public class OccupationTests {
     }
 
     @Test
-    public void exampleTest() {
+    public void bodyResponseTest() {
         String body = this.restTemplate.getForObject("/occupations", String.class);
         assertThat(body).contains("occupation");
     }

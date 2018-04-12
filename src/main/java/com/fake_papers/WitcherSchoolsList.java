@@ -7,10 +7,14 @@ public enum WitcherSchoolsList {
     VIPER ("The School of The Viper"), 
     MANTICORE ("The School of The Manticore");
 
-    private String school; 
+    private String value; 
 
-    WitcherSchoolsList(String school){
-        this.school = school;
+    public String getValue(){
+        return value;
+    }
+
+    private WitcherSchoolsList(String value){
+        this.value = value;
     }
 
 
