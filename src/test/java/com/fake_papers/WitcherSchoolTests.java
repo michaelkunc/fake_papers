@@ -29,7 +29,7 @@ public class WitcherSchoolTests {
         String body = this.restTemplate.getForObject("/witcherschools", String.class);
         assertThat(body).contains("witcherSchool");
         // TODO: Still working on getting this test right
-        // assertTrue(Arrays.asList(schoolList).contains("The School of The Cat"));
+        // assertTrue(Arrays.asList(schoolList).contains(body));
     }
 
 
